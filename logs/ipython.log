@@ -1,0 +1,121 @@
+2024-10-02 11:52:11,567 INFO ipython === bench console session ===
+2024-10-02 11:52:11,567 INFO ipython  return f"Author {new_author.name} created successfully!"
+2024-10-02 11:52:11,568 INFO ipython  return f"Author {new.name} created successfully!"
+2024-10-02 11:52:11,568 INFO ipython new
+2024-10-02 11:52:11,568 INFO ipython print(f"{new.author}")
+2024-10-02 11:52:11,568 INFO ipython print(f"{new.author}")
+2024-10-02 11:52:11,568 INFO ipython  return f"Author {new.name} created successfully!"
+2024-10-02 11:52:11,568 INFO ipython  return f"Author {new.author} created successfully!"
+2024-10-02 11:52:11,568 INFO ipython print(result)
+2024-10-02 11:52:11,568 INFO ipython === session end ===
+2024-10-02 11:57:16,263 INFO ipython === bench console session ===
+2024-10-02 11:57:16,263 INFO ipython print(result)
+2024-10-02 11:57:16,273 INFO ipython print(result)
+2024-10-02 11:57:16,273 INFO ipython print(result)
+2024-10-02 11:57:16,273 INFO ipython result
+2024-10-02 11:57:16,274 INFO ipython new_author.insert()
+2024-10-02 11:57:16,274 INFO ipython import frappe
+from frappe.model.document import Document
+
+class Author(Document):
+    pass
+
+@frappe.whitelist()
+def author():
+    # Author document create karna
+    new_author = frappe.new_doc("Author")
+    new_author.name = "George"  # Author ka naam
+    new_author.nationality = "American"  # Nationality
+    new_author.insert()  # Document ko database mein insert karein
+
+    # Function ke andar return statement
+    return f"Author {new_author.name} created successfully!"
+
+# Function ko call karne ke liye aur result ko store karne ke liye
+result = author()  # yahan function ko call kar rahe hain
+print(result)  # Result ko print karein
+2024-10-02 11:57:16,274 INFO ipython clear
+2024-10-02 11:57:16,274 INFO ipython import frappe
+from frappe.model.document import Document
+
+class Author(Document):
+    pass
+
+@frappe.whitelist()
+def author():
+    # Author document create karna
+    new_author = frappe.new_doc("Author")
+    new_author.name = "George"  # Author ka naam
+    new_author.nationality = "American"  # Nationality
+    new_author.insert()  # Document ko database mein insert karein
+
+    # Function ke andar return statement
+    return f"Author {new_author.name} created successfully!"
+
+# Function ko call karne ke liye aur result ko store karne ke liye
+result = author()  # yahan function ko call kar rahe hain
+print(result)  # Result ko print karein
+2024-10-02 11:57:16,274 INFO ipython === session end ===
+2024-10-02 12:03:27,989 INFO ipython === bench console session ===
+2024-10-02 12:03:27,989 INFO ipython import frappe
+from frappe.model.document import Document
+
+
+class Author(Document):
+	pass
+
+@frappe.whitelist()
+def author():
+	new_author = frappe.new_doc("Author")
+	new_author.author = "George"
+	new_author.nationality = "American"
+	new_author.insert()
+	return f"Author {new_author.author} created successfully!"
+
+result = author()
+print(result)
+2024-10-02 12:03:27,989 INFO ipython === session end ===
+2024-10-05 11:35:15,872 INFO ipython === bench console session ===
+2024-10-05 11:35:15,872 INFO ipython doc = frappe.get_doc({
+'doctype': 'Employee',
+'first_name': 'Megha',
+'last_name': 'Nishad'
+})
+2024-10-05 11:35:15,872 INFO ipython doc.insert()
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,872 INFO ipython doc = frappe.get_last_doc('Employee')
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython print(doc.first_name)
+2024-10-05 11:35:15,872 INFO ipython frappe.delete_doc('Employee', 'Madhu')
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,872 INFO ipython doc = frappe.get_doc({
+'doctype': 'Employee',
+'first_name': 'Kusum',
+'last_name': 'Sinha'
+})
+2024-10-05 11:35:15,872 INFO ipython doc.insert()
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,873 INFO ipython doc = frappe.get_doc({
+  'doctype': 'Employee',
+ 'first_name': 'Kumkum',
+ 'last_name': 'Tiwari'
+  })
+2024-10-05 11:35:15,873 INFO ipython doc.insert()
+2024-10-05 11:35:15,873 INFO ipython doc.save()
+2024-10-05 11:35:15,873 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,873 INFO ipython frappe.rename_doc('Employee', 'Madhu', 'Urmila')
+2024-10-05 11:35:15,873 INFO ipython frappe.rename_doc('Employee', 'Megha', 'Urmila')
+2024-10-05 11:35:15,873 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,873 INFO ipython doc = frappe.get_meta('Employee')
+2024-10-05 11:35:15,873 INFO ipython doc.has_field('first_name')
+2024-10-05 11:35:15,873 INFO ipython doc.get_custom_fields()
+2024-10-05 11:35:15,873 INFO ipython doc.has_field('age')
+2024-10-05 11:35:15,873 INFO ipython doc = doc.get_title()
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee')
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee', pluck='last_name)
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee', pluck='last_name')
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_all('Employee')
+2024-10-05 11:35:15,873 INFO ipython === session end ===

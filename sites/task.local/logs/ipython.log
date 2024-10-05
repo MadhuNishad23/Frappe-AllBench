@@ -1,0 +1,44 @@
+2024-10-05 11:35:15,872 INFO ipython === bench console session ===
+2024-10-05 11:35:15,872 INFO ipython doc = frappe.get_doc({
+'doctype': 'Employee',
+'first_name': 'Megha',
+'last_name': 'Nishad'
+})
+2024-10-05 11:35:15,872 INFO ipython doc.insert()
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,872 INFO ipython doc = frappe.get_last_doc('Employee')
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython print(doc.first_name)
+2024-10-05 11:35:15,872 INFO ipython frappe.delete_doc('Employee', 'Madhu')
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,872 INFO ipython doc = frappe.get_doc({
+'doctype': 'Employee',
+'first_name': 'Kusum',
+'last_name': 'Sinha'
+})
+2024-10-05 11:35:15,872 INFO ipython doc.insert()
+2024-10-05 11:35:15,872 INFO ipython doc.save()
+2024-10-05 11:35:15,872 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,873 INFO ipython doc = frappe.get_doc({
+  'doctype': 'Employee',
+ 'first_name': 'Kumkum',
+ 'last_name': 'Tiwari'
+  })
+2024-10-05 11:35:15,873 INFO ipython doc.insert()
+2024-10-05 11:35:15,873 INFO ipython doc.save()
+2024-10-05 11:35:15,873 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,873 INFO ipython frappe.rename_doc('Employee', 'Madhu', 'Urmila')
+2024-10-05 11:35:15,873 INFO ipython frappe.rename_doc('Employee', 'Megha', 'Urmila')
+2024-10-05 11:35:15,873 INFO ipython frappe.db.commit()
+2024-10-05 11:35:15,873 INFO ipython doc = frappe.get_meta('Employee')
+2024-10-05 11:35:15,873 INFO ipython doc.has_field('first_name')
+2024-10-05 11:35:15,873 INFO ipython doc.get_custom_fields()
+2024-10-05 11:35:15,873 INFO ipython doc.has_field('age')
+2024-10-05 11:35:15,873 INFO ipython doc = doc.get_title()
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee')
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee', pluck='last_name)
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee', pluck='last_name')
+2024-10-05 11:35:15,873 INFO ipython frappe.db.get_all('Employee')
+2024-10-05 11:35:15,873 INFO ipython === session end ===

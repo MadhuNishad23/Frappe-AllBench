@@ -1,0 +1,8 @@
+frappe
+airplane_mode
+task_app
+rentals
+library_management
+expense_manager
+erpnext
+interview_management_system

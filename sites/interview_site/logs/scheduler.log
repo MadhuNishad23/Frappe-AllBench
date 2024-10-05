@@ -1,0 +1,15 @@
+2024-09-28 00:01:41,405 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for interview_site
+2024-10-01 10:19:23,531 ERROR scheduler Skipped queueing frappe.desk.doctype.changelog_feed.changelog_feed.fetch_changelog_feed because it was found in queue for interview_site
+2024-10-01 10:19:23,549 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.weekly_backup because it was found in queue for interview_site
+2024-10-01 10:19:23,562 ERROR scheduler Skipped queueing frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary because it was found in queue for interview_site
+2024-10-01 10:19:23,574 ERROR scheduler Skipped queueing frappe.utils.change_log.check_for_update because it was found in queue for interview_site
+2024-10-01 10:19:23,589 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_weekly_updates because it was found in queue for interview_site
+2024-10-01 10:19:23,603 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly because it was found in queue for interview_site
+2024-10-01 10:19:23,616 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly because it was found in queue for interview_site
+2024-10-01 10:19:23,629 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.daily_backup because it was found in queue for interview_site
+2024-10-01 10:19:23,641 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for interview_site
+2024-10-01 10:19:23,654 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily because it was found in queue for interview_site
+2024-10-01 10:19:23,669 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily because it was found in queue for interview_site
+2024-10-02 10:43:57,711 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for interview_site
+2024-10-02 10:43:57,717 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily because it was found in queue for interview_site
+2024-10-02 10:43:57,724 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily because it was found in queue for interview_site
