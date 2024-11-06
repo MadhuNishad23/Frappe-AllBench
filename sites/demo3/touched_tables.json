@@ -1,10 +1,10 @@
 [
     "tabTag Link",
-    "tabDocType Link",
-    "tabTag",
-    "tabDocPerm",
-    "tabDocType State",
     "tabDocType",
-    "tabDocField",
-    "tabDocType Action"
+    "tabTag",
+    "tabDocType State",
+    "tabDocPerm",
+    "tabDocType Action",
+    "tabDocType Link",
+    "tabDocField"
 ]

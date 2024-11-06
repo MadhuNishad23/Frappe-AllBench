@@ -1,8 +1,12 @@
 frappe
 airplane_mode
 task_app
+print_designer
+appointments_app
 rentals
+airport_shop_management
 library_management
+movie_tickets
 expense_manager
 erpnext
 interview_management_system

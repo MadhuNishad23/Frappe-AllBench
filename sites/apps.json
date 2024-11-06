@@ -77,5 +77,45 @@
         "required": [],
         "idx": 8,
         "version": "0.0.1"
+    },
+    "movie_tickets": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "3c97b277f9e23919e4e13d5930d289107ac17edb",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 9,
+        "version": "0.0.1"
+    },
+    "appointments_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "3d889a9a1951e71080fe1410f9b4137d15245c85",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 10,
+        "version": "0.0.1"
+    },
+    "airport_shop_management": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4a2ff6f0a235556cf47aa4a476e45b1df344cc8a",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 11,
+        "version": "0.0.1"
+    },
+    "print_designer": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "21fdcfca839a528a92744912fe50e98a025e10ec",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 12,
+        "version": "1.0.0-dev"
     }
 }

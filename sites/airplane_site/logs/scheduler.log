@@ -40,3 +40,13 @@
 2024-10-02 10:44:59,765 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for airplane_site
 2024-10-02 10:44:59,775 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily because it was found in queue for airplane_site
 2024-10-02 10:44:59,785 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily because it was found in queue for airplane_site
+2024-10-06 08:30:50,969 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.weekly_backup because it was found in queue for airplane_site
+2024-10-06 08:30:50,981 ERROR scheduler Skipped queueing frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary because it was found in queue for airplane_site
+2024-10-06 08:30:50,987 ERROR scheduler Skipped queueing frappe.utils.change_log.check_for_update because it was found in queue for airplane_site
+2024-10-06 08:30:50,993 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_weekly_updates because it was found in queue for airplane_site
+2024-10-06 08:30:51,003 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly because it was found in queue for airplane_site
+2024-10-06 08:30:51,010 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly because it was found in queue for airplane_site
+2024-10-06 08:30:51,020 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_drive.google_drive.daily_backup because it was found in queue for airplane_site
+2024-10-06 08:30:51,029 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for airplane_site
+2024-10-06 08:30:51,037 ERROR scheduler Skipped queueing frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily because it was found in queue for airplane_site
+2024-10-06 08:30:51,051 ERROR scheduler Skipped queueing frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily because it was found in queue for airplane_site

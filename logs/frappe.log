@@ -58,3 +58,567 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Expense Claim","name":"new-expense
 2024-10-05 15:53:28,550 ERROR frappe New Exception collected in error log
 Site: task.local
 Form Dict: {'doc': '{"name":"Madhu","owner":"Administrator","creation":"2024-10-05 13:53:52.186731","modified":"2024-10-05 15:52:06.023812","modified_by":"madhu@gmail.com","docstatus":0,"idx":0,"workflow_state":"Under Review","employee":"Madhu","date":"2024-10-06","amount":1100,"status":"Submitted","doctype":"Expense Claim","expense_type":[{"name":"javh184akm","owner":"Administrator","creation":"2024-10-05 13:53:52.186731","modified":"2024-10-05 15:52:06.023812","modified_by":"madhu@gmail.com","docstatus":0,"idx":1,"item":"Meals","price":"600","parent":"Madhu","parentfield":"expense_type","parenttype":"Expense Claim","doctype":"Expense Item"},{"name":"javhmus8tp","owner":"Administrator","creation":"2024-10-05 13:53:52.186731","modified":"2024-10-05 15:52:06.023812","modified_by":"madhu@gmail.com","docstatus":0,"idx":2,"item":"Office Supplies","price":"500","parent":"Madhu","parentfield":"expense_type","parenttype":"Expense Claim","doctype":"Expense Item"}],"__last_sync_on":"2024-10-05T10:23:23.229Z"}', 'action': 'Approve', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2024-10-08 16:30:55,904 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"ToDo","name":"new-todo-uudmyetaxb","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Open","priority":"Medium","date":"2024-10-08","__run_link_triggers":1,"description":"<div class=\\"ql-editor read-mode\\"><p>fvfdvfd</p></div>"}', 'cmd': 'frappe.client.save'}
+2024-10-08 16:34:28,488 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"ToDo","name":"new-todo-uudmyetaxb","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Open","priority":"Medium","date":"2024-10-08","description":"<div class=\\"ql-editor read-mode\\"><p>fvfdvfd</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-08 16:36:08,711 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"ToDo","name":"new-todo-uudmyetaxb","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Open","priority":"Medium","date":"2024-10-08","description":"<div class=\\"ql-editor read-mode\\"><p>fvfdvfd</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-08 17:04:03,308 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"ToDo","name":"new-todo-hwmtjwuynz","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Open","priority":"Medium","date":"2024-10-08","__run_link_triggers":1,"description":"<div class=\\"ql-editor read-mode\\"><p>ferg</p></div>"}', 'cmd': 'frappe.client.save'}
+2024-10-08 17:05:11,298 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"ToDo","name":"new-todo-puolmutlkt","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Open","priority":"Medium","date":"2024-10-08","description":"<div class=\\"ql-editor read-mode\\"><p>hello</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 11:34:09,264 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doctype': 'Vehicle', 'fields': '["`tabVehicle`.`name`","`tabVehicle`.`owner`","`tabVehicle`.`creation`","`tabVehicle`.`modified`","`tabVehicle`.`modified_by`","`tabVehicle`.`_user_tags`","`tabVehicle`.`_comments`","`tabVehicle`.`_assign`","`tabVehicle`.`_liked_by`","`tabVehicle`.`docstatus`","`tabVehicle`.`idx`","`tabVehicle`.`make`","`tabVehicle`.`year`","`tabVehicle`.`color`","`tabVehicle`.`model`","`tabVehicle`.`status`","`tabVehicle`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicle`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-09 11:39:08,869 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doctype': 'Vehicle', 'fields': '["`tabVehicle`.`name`","`tabVehicle`.`owner`","`tabVehicle`.`creation`","`tabVehicle`.`modified`","`tabVehicle`.`modified_by`","`tabVehicle`.`_user_tags`","`tabVehicle`.`_comments`","`tabVehicle`.`_assign`","`tabVehicle`.`_liked_by`","`tabVehicle`.`docstatus`","`tabVehicle`.`idx`","`tabVehicle`.`make`","`tabVehicle`.`year`","`tabVehicle`.`color`","`tabVehicle`.`model`","`tabVehicle`.`status`","`tabVehicle`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicle`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-09 11:39:31,849 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doctype': 'Vehicle', 'fields': '["`tabVehicle`.`name`","`tabVehicle`.`owner`","`tabVehicle`.`creation`","`tabVehicle`.`modified`","`tabVehicle`.`modified_by`","`tabVehicle`.`_user_tags`","`tabVehicle`.`_comments`","`tabVehicle`.`_assign`","`tabVehicle`.`_liked_by`","`tabVehicle`.`docstatus`","`tabVehicle`.`idx`","`tabVehicle`.`make`","`tabVehicle`.`year`","`tabVehicle`.`color`","`tabVehicle`.`model`","`tabVehicle`.`status`","`tabVehicle`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicle`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-09 12:25:14,706 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doctype': 'Vehicle', 'fields': '["`tabVehicle`.`name`","`tabVehicle`.`owner`","`tabVehicle`.`creation`","`tabVehicle`.`modified`","`tabVehicle`.`modified_by`","`tabVehicle`.`_user_tags`","`tabVehicle`.`_comments`","`tabVehicle`.`_assign`","`tabVehicle`.`_liked_by`","`tabVehicle`.`docstatus`","`tabVehicle`.`idx`","`tabVehicle`.`make`","`tabVehicle`.`year`","`tabVehicle`.`color`","`tabVehicle`.`model`","`tabVehicle`.`status`","`tabVehicle`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicle`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-09 14:55:16,340 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-gnbqnjxdsf","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Sold","make":"gbfg","year":2022,"color":"White","insureance_expiry":"2024-10-09","model":"defregr","license_plate":"regvrthb","condition":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 14:55:31,048 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-gnbqnjxdsf","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Sold","make":"gbfg","year":2022,"color":"White","insureance_expiry":"2024-10-09","model":"defregr","license_plate":"regvrthb","condition":1,"route":"dscdf"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 14:57:54,160 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-qdejumuvet","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","__run_link_triggers":false,"title":"Audi Q7, 2021","make":"Audi","year":2021,"color":"Gray","insureance_expiry":"2024-09-30","model":"Q7","license_plate":"PQR234","condition":0,"creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null,"amended_from":"6"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 14:59:28,192 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-qdejumuvet","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","__run_link_triggers":false,"title":"Audi Q7, 2021","make":"Audi","year":2021,"color":"Gray","insureance_expiry":"2024-09-30","model":"Q7","license_plate":"PQR234","condition":0,"creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null,"amended_from":"6"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 15:00:20,597 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-qdejumuvet","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","__run_link_triggers":false,"title":"Audi Q7, 2021","make":"Audi","year":2021,"color":"Gray","insureance_expiry":"2024-09-30","model":"Q7","license_plate":"PQR234","condition":0.6,"creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null,"amended_from":"6"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 15:01:52,978 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-ppzobykxrd","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","__run_link_triggers":false,"title":"Audi Q7, 2021","make":"Audi","year":2021,"color":"Gray","insureance_expiry":"2024-09-30","model":"Q7","license_plate":"PQR234","condition":0,"creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null,"amended_from":"6"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 15:02:11,718 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-ppzobykxrd","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","__run_link_triggers":false,"title":"Audi Q7, 2021","make":"Audi","year":2021,"color":"Gray","insureance_expiry":"2024-09-30","model":"Q7","license_plate":"PQR234","condition":0,"creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null,"amended_from":"6"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 15:02:58,492 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-ppzobykxrd","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","__run_link_triggers":false,"title":"Audi Q7, 2021","make":"Audi","year":2021,"color":"Gray","insureance_expiry":"2024-09-30","model":"Q7","license_plate":"PQR234","condition":0.3,"creation":"","modified_by":"Administrator","modified":"","lft":null,"rgt":null,"idx":null,"amended_from":"6"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-15 16:06:24,486 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"name":"Airplanes By Airline","owner":"Administrator","creation":"2024-10-15 16:03:54.092393","modified":"2024-10-15 16:04:04.242807","modified_by":"Administrator","docstatus":0,"idx":0,"report_name":"Airplanes By Airline","ref_doctype":"Airplane","is_standard":"Yes","module":"Rentals","report_type":"Report Builder","add_total_row":0,"disabled":0,"prepared_report":0,"json":{"filters":[],"fields":[["airline","Airplane"],["_aggregate_column","Airplane"]],"order_by":"`tabAirplane`.`modified` desc","add_totals_row":0,"page_length":20,"column_widths":{"airline":120,"_aggregate_column":200},"group_by":{"group_by":"`tabAirplane`.`airline`","aggregate_function":"count"}},"doctype":"Report","filters":[],"columns":[],"roles":[{"name":"tcllkits1t","owner":"Administrator","creation":"2024-10-15 16:03:54.105319","modified":"2024-10-15 16:04:04.242807","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","parent":"Airplanes By Airline","parentfield":"roles","parenttype":"Report","doctype":"Has Role"}],"__last_sync_on":"2024-10-15T10:34:34.714Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-15 16:06:28,665 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"name":"Airplanes By Airline","owner":"Administrator","creation":"2024-10-15 16:03:54.092393","modified":"2024-10-15 16:04:04.242807","modified_by":"Administrator","docstatus":0,"idx":0,"report_name":"Airplanes By Airline","ref_doctype":"Airplane","is_standard":"Yes","module":"Rentals","report_type":"Report Builder","add_total_row":0,"disabled":0,"prepared_report":0,"json":{"filters":[],"fields":[["airline","Airplane"],["_aggregate_column","Airplane"]],"order_by":"`tabAirplane`.`modified` desc","add_totals_row":0,"page_length":20,"column_widths":{"airline":120,"_aggregate_column":200},"group_by":{"group_by":"`tabAirplane`.`airline`","aggregate_function":"count"}},"doctype":"Report","filters":[],"columns":[],"roles":[{"name":"tcllkits1t","owner":"Administrator","creation":"2024-10-15 16:03:54.105319","modified":"2024-10-15 16:04:04.242807","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","parent":"Airplanes By Airline","parentfield":"roles","parenttype":"Report","doctype":"Has Role"}],"__last_sync_on":"2024-10-15T10:34:34.714Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-15 16:24:00,670 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 16:25:13,188 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 16:26:18,840 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 16:26:38,496 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 16:40:26,432 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 16:59:21,862 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 17:06:27,111 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 17:15:58,276 ERROR frappe Error while inserting deferred Error Log record: Error Log umsusnl6j8: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-on_Type' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-15 18:40:49,473 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 18:41:49,640 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 18:51:31,322 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 20:21:57,591 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 20:22:25,716 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 20:24:41,140 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-15 20:25:36,823 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 12:37:33,907 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 12:38:17,268 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 12:51:44,100 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:21:56,454 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:26:09,762 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:27:21,184 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:31:26,218 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:32:51,847 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:07:10,222 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:10:30,450 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-ghzckyyyml","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Boarded","add_ons":[{"docstatus":0,"doctype":"Airplane ticket Add-on Item","name":"new-airplane-ticket-add-on-item-pnhelvthnm","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-airplane-ticket-ghzckyyyml","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"item":"In-Flight Meals","amount":200},{"docstatus":0,"doctype":"Airplane ticket Add-on Item","name":"new-airplane-ticket-add-on-item-rfmxubgztc","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-airplane-ticket-ghzckyyyml","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":2,"__unedited":false,"item":"WIFI","amount":300}],"passenger":2,"source_airport_code":"LAX","source_airport":"LAX","destination_airport_code":"DEL","destination_airport":"DEL","flight":"AirAsia-032","departure_date":"2024-10-17","departure_time":"15:09:45","duration_of_flight":7200,"flight_price":5000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-17 15:10:48,857 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-ghzckyyyml","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Boarded","add_ons":[{"docstatus":0,"doctype":"Airplane ticket Add-on Item","name":"new-airplane-ticket-add-on-item-pnhelvthnm","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-airplane-ticket-ghzckyyyml","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"item":"In-Flight Meals","amount":200},{"docstatus":0,"doctype":"Airplane ticket Add-on Item","name":"new-airplane-ticket-add-on-item-rfmxubgztc","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-airplane-ticket-ghzckyyyml","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":2,"__unedited":false,"item":"WIFI","amount":300}],"passenger":2,"source_airport_code":"LAX","source_airport":"LAX","destination_airport_code":"DEL","destination_airport":"DEL","flight":"AirAsia-032","departure_date":"2024-10-17","departure_time":"15:09:45","duration_of_flight":7200,"flight_price":5000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-17 15:15:04,190 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:16:28,363 ERROR frappe Error while inserting deferred Error Log record: Error Log h8cbf0evvg: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM `tabAirplane Ticket`' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 15:16:28,375 ERROR frappe Error while inserting deferred Error Log record: Error Log h8cbddidg0: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Add-on Item.item AS Add-on Type,\n    COUNT(*) AS Sold Count\nFROM\n    tabAirpl...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 15:17:52,001 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:25:55,724 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:33:08,151 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:34:25,762 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:34:35,013 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:36:28,405 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:38:12,574 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:39:59,134 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:44:41,555 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:45:37,127 ERROR frappe Error while inserting deferred Error Log record: Error Log hper7a0lv4: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Add-on Type.description AS Add-on Type,\n    COUNT(tabAirplane Ticket Add-on I...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 15:45:37,131 ERROR frappe Error while inserting deferred Error Log record: Error Log hperpo8cj5: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Add-on Type.description AS Add-on Type,\n    COUNT(tabAirplane Ticket Add-on I...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 15:49:24,778 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 16:09:20,088 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 16:15:17,828 ERROR frappe Error while inserting deferred Error Log record: Error Log iarao46qgq: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'at\n            JOIN tabAirplane Flight af ON at.flight = af.name\n            ...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 16:38:31,355 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 16:45:26,807 ERROR frappe Error while inserting deferred Error Log record: Error Log isgkvqqs99: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Add-on Type.description AS Add-on Type,\n    COUNT(tabAirplane Ticket Add-on I...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 16:53:25,586 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 16:54:29,709 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:00:33,541 ERROR frappe Error while inserting deferred Error Log record: Error Log j5bv6vj2mr: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(`tabAirplane Ticket Add-on Item`.add_on_type) AS `Sold Count` \nFROM `ta...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 17:22:26,468 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:23:10,108 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:28:31,692 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:29:14,096 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:29:24,152 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:30:00,308 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 17:30:46,560 ERROR frappe Error while inserting deferred Error Log record: Error Log jn2hcl1hhe: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(`tabAirplane Ticket Add-on Item`.add_on_type) AS `COUNT` FROM `tabAirpl...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 17:30:46,568 ERROR frappe Error while inserting deferred Error Log record: Error Log jn2hsev44h: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(`tabAirplane Ticket Add-on Item`.add_on_type) AS `COUNT` FROM `t...' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 17:30:46,580 ERROR frappe Error while inserting deferred Error Log record: Error Log jn2hipvurh: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Select count(*) AS 'Sold' FROM `tabAirplane Ticket Add-on Item`' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 17:30:46,589 ERROR frappe Error while inserting deferred Error Log record: Error Log jn2h50f58a: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(*) AS 'Sold' FROM `tabAirplane Ticket Add-on Item`' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 17:30:46,596 ERROR frappe Error while inserting deferred Error Log record: Error Log jn2heo3d0i: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(*) AS 'Sold' FROM `tabAirplane Ticket Add-on Item`' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 17:30:46,603 ERROR frappe Error while inserting deferred Error Log record: Error Log jn2i3nqgs4: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(*) AS 'Sold' FROM `tabAirplane Ticket Add-on Item`' at line 2")) will get truncated, as max characters allowed is 140
+Site: demo3
+Form Dict: {}
+2024-10-17 19:05:01,014 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-vfrulpmvzk","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Boarded","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-lcrvseexkh","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-airplane-ticket-vfrulpmvzk","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"item":"WI-FI","amount":300}],"passenger":10,"source_airport_code":"LAX","source_airport":"LAX","destination_airport_code":"009","destination_airport":"MAL","flight":"IndiGo-008","departure_date":"2024-10-17","departure_time":"19:04:38","duration_of_flight":7200,"flight_price":3000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 10:36:52,239 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-emifzxcfcg","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","make":"Honda","year":2001,"color":"Black","insureance_expiry":"2024-10-31","model":"A123","condition":0.8}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 10:37:09,094 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-emifzxcfcg","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","make":"Honda","year":2001,"color":"Black","insureance_expiry":"2024-10-31","model":"A123","condition":0.8}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 10:38:56,669 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-ktvqeigyzu","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","make":"Honda","year":2001,"color":"Black","insureance_expiry":"2024-10-31","model":"1234","condition":0.8}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 13:34:28,819 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-qhxbcvfeyl","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Active","make":"Lora Lari","year":22025,"color":"silvver","insureance_expiry":"2024-10-30","model":"assfchyt53546"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 13:34:44,269 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-qhxbcvfeyl","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":1,"status":"Out of Service","make":"Lora Lari","year":22025,"color":"silvver","insureance_expiry":"2024-10-30","model":"assfchyt53546","condition":0.8}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 13:37:13,142 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-ykwhzzithk","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":0,"status":"Active","make":"audi","year":2021,"color":"silver","insureance_expiry":"2024-10-31","model":"ASD123"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-18 14:11:24,633 ERROR frappe New Exception collected in error log
+Site: demo3
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vehicle","name":"new-vehicle-qjpzjgntwv","__islocal":1,"__unsaved":1,"owner":"Administrator","audit_completed":0,"is_published":0,"status":"Active","make":"Land Rover","year":2001,"color":"Red","insureance_expiry":"2024-10-29","model":"ASD123"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-22 20:54:18,220 ERROR frappe New Exception collected in error log
+Site: appointment.local
+Form Dict: {'doc': '{"name":"i36f1pcscr","owner":"Administrator","creation":"2024-10-22 12:32:44.711376","modified":"2024-10-22 20:48:45.821031","modified_by":"Administrator","docstatus":0,"idx":0,"start_time":"18:00:00","end_time":"21:00:00","clinic":"Dental Clinic","doctype":"Schedule Shift","title":"17:00:00-21:00:00","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-11-05 19:03:19,639 ERROR frappe Could not take error snapshot: No module named 'print_designer'
+Site: demo3
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 313, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1692, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1540, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1505, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1535, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1333, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 66, in get_controller
+    return import_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 88, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1641, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1610, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+2024-11-05 19:03:57,355 ERROR frappe Could not take error snapshot: No module named 'print_designer'
+Site: demo3
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 313, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1692, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1540, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1505, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1535, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1333, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 66, in get_controller
+    return import_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 88, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1641, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1610, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+2024-11-05 19:04:05,225 ERROR frappe Could not take error snapshot: No module named 'print_designer'
+Site: demo3
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 313, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1692, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1540, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1505, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1535, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1333, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 66, in get_controller
+    return import_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 88, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1641, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1610, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+2024-11-05 19:04:21,655 ERROR frappe Could not take error snapshot: No module named 'print_designer'
+Site: demo3
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 313, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1692, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1540, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1505, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1535, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1333, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 66, in get_controller
+    return import_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 88, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1641, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1610, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+2024-11-05 19:04:31,644 ERROR frappe Could not take error snapshot: No module named 'print_designer'
+Site: demo3
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/madhu/my-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.init(site=site, sites_path=_sites_path, force=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 313, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1692, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1540, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1505, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1535, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1333, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 66, in get_controller
+    return import_controller(doctype)
+  File "/home/madhu/my-bench/apps/frappe/frappe/model/base_document.py", line 88, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1641, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/madhu/my-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1610, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/madhu/my-bench/apps/frappe/frappe/__init__.py", line 1476, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'print_designer'
