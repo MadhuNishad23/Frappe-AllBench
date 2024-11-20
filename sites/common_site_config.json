@@ -1,6 +1,7 @@
 {
  "background_workers": 1,
- "default_site": "demo3",
+ "default_site": "task.local",
+ "developer_mode": 1,
  "file_watcher_port": 6787,
  "frappe_user": "madhu",
  "gunicorn_workers": 17,
@@ -11,6 +12,7 @@
  "redis_socketio": "redis://127.0.0.1:13000",
  "restart_supervisor_on_update": false,
  "restart_systemd_on_update": false,
+ "scheduler_enabled": true,
  "serve_default_site": true,
  "server_script_enabled": 1,
  "shallow_clone": true,

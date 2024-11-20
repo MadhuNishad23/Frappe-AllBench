@@ -1,4 +1,4 @@
-2024-10-22 20:41:32,768 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:50:23,718 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -33,7 +33,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:42:33,421 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:51:23,819 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -68,7 +68,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:43:33,632 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:52:23,950 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -103,7 +103,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:44:33,893 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:53:24,133 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -138,7 +138,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:45:34,766 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:54:24,276 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -173,7 +173,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:46:35,116 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:55:24,466 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -208,7 +208,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:47:35,372 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:56:24,617 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -243,7 +243,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:48:35,980 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:57:24,793 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -278,7 +278,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:49:36,168 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:58:24,864 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -313,7 +313,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:50:36,958 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 12:59:25,058 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -348,7 +348,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:51:37,541 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:00:25,212 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -383,7 +383,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:52:37,842 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:01:25,340 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -418,7 +418,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:53:38,445 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:02:25,482 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -453,7 +453,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:54:38,822 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:03:25,646 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -488,7 +488,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:55:39,075 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:04:25,806 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -523,7 +523,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:56:39,474 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:05:25,858 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -558,7 +558,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:57:39,920 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:06:26,020 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -593,7 +593,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:58:40,639 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 13:07:26,123 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -628,7 +628,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 20:59:40,854 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:46:28,435 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -663,7 +663,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:00:41,161 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:47:28,572 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -698,7 +698,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:01:41,772 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:48:28,751 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -733,7 +733,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:02:42,251 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:49:28,909 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -768,7 +768,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:03:43,032 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:50:29,077 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -803,7 +803,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:04:43,166 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:51:29,135 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -838,7 +838,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:05:43,909 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:52:29,278 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -873,7 +873,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:06:44,382 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:53:29,467 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -908,7 +908,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:07:44,765 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:54:29,642 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -943,7 +943,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:08:45,565 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:55:29,766 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -978,7 +978,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:09:45,755 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:56:29,937 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1013,7 +1013,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:10:46,275 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:57:30,138 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1048,7 +1048,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:11:46,773 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:58:53,458 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1083,7 +1083,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:12:48,199 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 15:59:53,694 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1118,7 +1118,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:13:48,532 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 16:00:53,869 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1153,7 +1153,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:14:49,260 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 16:01:54,071 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1188,7 +1188,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:15:49,589 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 16:02:54,208 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1223,7 +1223,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:16:50,131 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 16:03:54,408 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1258,7 +1258,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:17:50,506 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 16:04:54,565 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1293,7 +1293,7 @@ Traceback (most recent call last):
   File "/home/madhu/my-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_2bb8e6702a7fba80'@'localhost' (using password: YES)")
-2024-10-22 21:18:51,370 ERROR scheduler Exception in Enqueue Events for Site demo
+2024-11-11 16:05:54,722 ERROR scheduler Exception in Enqueue Events for Site demo
 Traceback (most recent call last):
   File "/home/madhu/my-bench/apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
     if is_scheduler_inactive():

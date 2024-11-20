@@ -1129,3 +1129,349 @@
 2024-11-06 09:57:18,938 WARNING /home/madhu/.local/bin/bench get-app https://github.com/frappe/print_designer executed with exit code 1
 2024-11-06 12:00:01,678 INFO /usr/local/bin/bench --verbose --site all backup
 2024-11-06 18:00:01,743 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-06 21:03:17,521 INFO /home/madhu/.local/bin/bench start
+2024-11-06 21:03:17,765 INFO /home/madhu/.local/bin/bench watch
+2024-11-06 21:03:17,772 INFO /home/madhu/.local/bin/bench worker
+2024-11-06 21:03:17,780 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-06 21:03:17,783 INFO /home/madhu/.local/bin/bench worker
+2024-11-06 21:03:17,783 INFO /home/madhu/.local/bin/bench worker
+2024-11-06 21:03:17,791 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 10:04:10,067 INFO /home/madhu/.local/bin/bench start
+2024-11-07 10:04:10,322 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 10:04:10,347 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 10:04:10,348 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 10:04:10,350 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 10:04:10,352 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 10:04:10,370 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 11:44:37,821 INFO /home/madhu/.local/bin/bench list-apps
+2024-11-07 12:00:01,135 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-07 12:02:52,806 INFO /home/madhu/.local/bin/bench clear-cashe
+2024-11-07 12:03:11,078 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-07 12:03:22,450 INFO /home/madhu/.local/bin/bench migrate
+2024-11-07 12:03:36,586 INFO /home/madhu/.local/bin/bench start
+2024-11-07 12:03:36,833 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 12:03:36,850 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 12:03:36,856 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 12:03:36,857 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 12:03:36,860 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 12:03:36,868 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 12:37:44,008 INFO /home/madhu/.local/bin/bench restart
+2024-11-07 12:37:44,024 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-07 12:37:44,775 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-11-07 12:37:45,054 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-07 12:38:44,620 INFO /home/madhu/.local/bin/bench start
+2024-11-07 12:38:45,268 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 12:38:45,308 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 12:38:45,365 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 12:38:45,370 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 12:38:45,374 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 12:38:45,399 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 12:56:33,297 INFO /home/madhu/.local/bin/bench console
+2024-11-07 16:49:59,473 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-07 16:50:06,089 INFO /home/madhu/.local/bin/bench start
+2024-11-07 16:50:06,693 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 16:50:06,750 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 16:50:06,810 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 16:50:06,810 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 16:50:06,812 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 16:50:06,815 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 17:00:21,944 INFO /home/madhu/.local/bin/bench migrate
+2024-11-07 17:00:53,591 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-07 17:01:38,909 INFO /home/madhu/.local/bin/bench start
+2024-11-07 17:01:39,528 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:01:39,557 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 17:01:39,618 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 17:01:39,632 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 17:01:39,661 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:01:39,712 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:03:23,412 INFO /home/madhu/.local/bin/bench console
+2024-11-07 17:07:44,213 INFO /home/madhu/.local/bin/bench start
+2024-11-07 17:07:44,814 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:07:44,884 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:07:44,929 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 17:07:44,935 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:07:44,950 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 17:07:44,961 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 17:10:59,973 INFO /home/madhu/.local/bin/bench start
+2024-11-07 17:11:00,567 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 17:11:00,614 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 17:11:00,709 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 17:11:00,709 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:11:00,715 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:11:00,716 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 17:13:21,491 INFO /home/madhu/.local/bin/bench console
+2024-11-07 21:44:45,290 INFO /home/madhu/.local/bin/bench start
+2024-11-07 21:44:46,241 INFO /home/madhu/.local/bin/bench watch
+2024-11-07 21:44:46,281 INFO /home/madhu/.local/bin/bench schedule
+2024-11-07 21:44:46,283 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-07 21:44:46,292 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 21:44:46,317 INFO /home/madhu/.local/bin/bench worker
+2024-11-07 21:44:46,393 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 09:51:37,980 INFO /home/madhu/.local/bin/bench start
+2024-11-08 09:51:38,210 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 09:51:38,224 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 09:51:38,241 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 09:51:38,242 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 09:51:38,248 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 09:51:38,268 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 11:59:19,566 INFO /home/madhu/.local/bin/bench start
+2024-11-08 11:59:19,805 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 11:59:19,816 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 11:59:19,824 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 11:59:19,836 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 11:59:19,837 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 11:59:19,847 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:00:02,012 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-08 12:11:49,176 INFO /home/madhu/.local/bin/bench execute airport_shop_management.airport_shop_management.api.send_rent_reminders
+2024-11-08 12:14:01,243 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:15:05,261 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:24:04,620 INFO /home/madhu/.local/bin/bench migrate
+2024-11-08 12:24:33,591 INFO /home/madhu/.local/bin/bench build
+2024-11-08 12:24:55,117 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-08 12:25:06,974 INFO /home/madhu/.local/bin/bench start
+2024-11-08 12:25:07,190 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:25:07,195 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 12:25:07,230 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:25:07,232 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:25:07,233 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 12:25:07,253 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 12:25:51,848 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:28:17,149 INFO /home/madhu/.local/bin/bench --site demo3 install-app airport_shop_management
+2024-11-08 12:28:30,988 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:32:43,844 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:49:41,033 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:53:10,320 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 12:55:11,959 INFO /home/madhu/.local/bin/bench start
+2024-11-08 12:55:12,183 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 12:55:12,200 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 12:55:12,219 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 12:55:12,221 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:55:12,227 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:55:12,228 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 12:57:22,697 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 15:21:23,282 INFO /home/madhu/.local/bin/bench start
+2024-11-08 15:21:23,518 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 15:21:23,522 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 15:21:23,544 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 15:21:23,545 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 15:21:23,552 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 15:21:23,555 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 15:35:18,065 INFO /home/madhu/.local/bin/bench use demo3
+2024-11-08 15:35:28,366 INFO /home/madhu/.local/bin/bench restart
+2024-11-08 15:35:28,378 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-08 15:35:54,020 INFO /home/madhu/.local/bin/bench restart
+2024-11-08 15:35:54,024 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-08 15:36:03,685 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-11-08 15:36:17,925 INFO /home/madhu/.local/bin/bench trigger-scheduler-event monthly
+2024-11-08 15:37:26,763 INFO /home/madhu/.local/bin/bench start
+2024-11-08 15:37:27,010 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 15:37:27,018 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 15:37:27,023 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 15:37:27,023 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 15:37:27,026 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 15:37:27,030 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 15:37:33,096 INFO /home/madhu/.local/bin/bench trigger-scheduler-event monthly
+2024-11-08 15:37:46,302 INFO /home/madhu/.local/bin/bench trigger-scheduler-event monthly
+2024-11-08 15:38:28,388 INFO /home/madhu/.local/bin/bench execute airport_shop_management.api.send_rent_reminders
+2024-11-08 15:39:07,314 INFO /home/madhu/.local/bin/bench trigger-scheduler-event daily
+2024-11-08 15:39:36,212 INFO /home/madhu/.local/bin/bench enable-scheduler
+2024-11-08 15:39:44,353 INFO /home/madhu/.local/bin/bench trigger-scheduler-event daily
+2024-11-08 16:48:28,649 INFO /home/madhu/.local/bin/bench start
+2024-11-08 16:48:28,908 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 16:48:28,908 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 16:48:28,914 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 16:48:28,916 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 16:48:28,920 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 16:48:28,920 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:08:07,901 INFO /home/madhu/.local/bin/bench use demo3
+2024-11-08 21:08:13,605 INFO /home/madhu/.local/bin/bench start
+2024-11-08 21:08:13,903 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 21:08:13,906 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 21:08:13,910 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:08:13,914 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 21:08:13,920 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:08:13,945 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:13:31,975 INFO /home/madhu/.local/bin/bench use demo3
+2024-11-08 21:13:37,600 INFO /home/madhu/.local/bin/bench start
+2024-11-08 21:13:37,835 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:13:37,866 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 21:13:37,869 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:13:37,872 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:13:37,874 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 21:13:37,895 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 21:27:54,049 INFO /home/madhu/.local/bin/bench start
+2024-11-08 21:27:54,286 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:27:54,291 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 21:27:54,293 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 21:27:54,300 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:27:54,302 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 21:27:54,302 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 21:59:24,032 INFO /home/madhu/.local/bin/bench restart
+2024-11-08 21:59:24,038 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-08 21:59:25,014 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-11-08 21:59:41,982 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-08 21:59:51,753 INFO /home/madhu/.local/bin/bench clear-website-cache
+2024-11-08 22:00:12,048 INFO /home/madhu/.local/bin/bench start
+2024-11-08 22:00:12,289 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 22:00:12,297 INFO /home/madhu/.local/bin/bench schedule
+2024-11-08 22:00:12,307 INFO /home/madhu/.local/bin/bench watch
+2024-11-08 22:00:12,312 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-08 22:00:12,315 INFO /home/madhu/.local/bin/bench worker
+2024-11-08 22:00:12,328 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 10:06:36,267 INFO /home/madhu/.local/bin/bench start
+2024-11-09 10:06:36,520 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 10:06:36,524 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 10:06:36,526 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-09 10:06:36,528 INFO /home/madhu/.local/bin/bench watch
+2024-11-09 10:06:36,532 INFO /home/madhu/.local/bin/bench schedule
+2024-11-09 10:06:36,534 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 12:00:01,162 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-09 16:03:13,114 INFO /home/madhu/.local/bin/bench console
+2024-11-09 16:14:11,248 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-09 16:14:22,464 INFO /home/madhu/.local/bin/bench clear-website-cache
+2024-11-09 16:14:27,727 INFO /home/madhu/.local/bin/bench build
+2024-11-09 16:15:27,988 INFO /home/madhu/.local/bin/bench start
+2024-11-09 16:15:28,227 INFO /home/madhu/.local/bin/bench schedule
+2024-11-09 16:15:28,237 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-09 16:15:28,246 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 16:15:28,250 INFO /home/madhu/.local/bin/bench watch
+2024-11-09 16:15:28,252 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 16:15:28,254 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 16:37:28,240 INFO /home/madhu/.local/bin/bench --site demo3 list-apps
+2024-11-09 16:39:27,444 INFO /home/madhu/.local/bin/bench --site demo3 uninstall-app print_designer
+2024-11-09 16:40:06,550 INFO /home/madhu/.local/bin/bench remove-app print_designer
+2024-11-09 16:40:06,635 INFO /home/madhu/.local/bin/bench --site all list-apps --format json
+2024-11-09 16:40:07,091 INFO /home/madhu/.local/bin/bench --site newsite list-apps
+2024-11-09 16:40:07,328 WARNING /home/madhu/.local/bin/bench remove-app print_designer executed with exit code 1
+2024-11-09 16:40:08,129 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-11-09 16:40:16,325 INFO /home/madhu/.local/bin/bench clear-cache
+2024-11-09 16:40:16,937 INFO /home/madhu/.local/bin/bench clear-website-cache
+2024-11-09 16:41:07,806 INFO /home/madhu/.local/bin/bench migrate
+2024-11-09 16:45:46,027 INFO /home/madhu/.local/bin/bench list-apps
+2024-11-09 16:46:36,385 INFO /home/madhu/.local/bin/bench --site demo3 list-apps
+2024-11-09 16:50:17,345 INFO /home/madhu/.local/bin/bench get-app https://github.com/frappe/print_designer
+2024-11-09 16:50:17,355 LOG Getting print_designer
+2024-11-09 16:50:17,355 DEBUG cd ./apps && git clone https://github.com/frappe/print_designer  --depth 1 --origin upstream
+2024-11-09 16:50:17,375 WARNING cd ./apps && git clone https://github.com/frappe/print_designer  --depth 1 --origin upstream executed with exit code 128
+2024-11-09 16:50:17,375 WARNING /home/madhu/.local/bin/bench get-app https://github.com/frappe/print_designer executed with exit code 1
+2024-11-09 16:52:14,258 INFO /home/madhu/.local/bin/bench get-app https://github.com/frappe/print_designer
+2024-11-09 16:52:14,265 LOG Getting print_designer
+2024-11-09 16:52:14,265 DEBUG cd ./apps && git clone https://github.com/frappe/print_designer  --depth 1 --origin upstream
+2024-11-09 16:52:17,137 LOG Installing print_designer
+2024-11-09 16:52:17,138 DEBUG cd /home/madhu/my-bench && /home/madhu/my-bench/env/bin/python -m pip install --quiet --upgrade -e /home/madhu/my-bench/apps/print_designer 
+2024-11-09 16:52:19,457 DEBUG cd /home/madhu/my-bench/apps/print_designer && yarn install --check-files
+2024-11-09 16:53:21,459 DEBUG bench build --app print_designer
+2024-11-09 16:53:21,568 INFO /home/madhu/.local/bin/bench build --app print_designer
+2024-11-09 16:53:27,315 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-11-09 16:53:27,945 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-11-09 16:54:56,092 INFO /home/madhu/.local/bin/bench get-app https://github.com/frappe/print_designer
+2024-11-09 16:55:12,000 WARNING /home/madhu/.local/bin/bench get-app https://github.com/frappe/print_designer executed with exit code 1
+2024-11-09 16:55:19,727 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-11-09 16:55:45,167 INFO /home/madhu/.local/bin/bench --site demo3 install-app print_designer
+2024-11-09 16:56:09,604 INFO /home/madhu/.local/bin/bench start
+2024-11-09 16:57:20,534 INFO /home/madhu/.local/bin/bench start
+2024-11-09 16:57:20,794 INFO /home/madhu/.local/bin/bench schedule
+2024-11-09 16:57:20,796 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 16:57:20,801 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-09 16:57:20,811 INFO /home/madhu/.local/bin/bench worker
+2024-11-09 16:57:20,821 INFO /home/madhu/.local/bin/bench watch
+2024-11-09 16:57:20,830 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 10:00:57,867 INFO /home/madhu/.local/bin/bench start
+2024-11-11 10:00:58,108 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 10:00:58,115 INFO /home/madhu/.local/bin/bench schedule
+2024-11-11 10:00:58,126 INFO /home/madhu/.local/bin/bench watch
+2024-11-11 10:00:58,135 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 10:00:58,137 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 10:00:58,148 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-11 12:00:01,513 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-11 16:10:31,028 INFO /home/madhu/.local/bin/bench console
+2024-11-11 17:24:25,850 INFO /home/madhu/.local/bin/bench start
+2024-11-11 17:24:26,107 INFO /home/madhu/.local/bin/bench watch
+2024-11-11 17:24:26,122 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 17:24:26,123 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-11 17:24:26,124 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 17:24:26,128 INFO /home/madhu/.local/bin/bench schedule
+2024-11-11 17:24:26,140 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:09:46,142 INFO /home/madhu/.local/bin/bench start
+2024-11-11 19:09:46,389 INFO /home/madhu/.local/bin/bench watch
+2024-11-11 19:09:46,397 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:09:46,409 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-11 19:09:46,411 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:09:46,414 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:09:46,420 INFO /home/madhu/.local/bin/bench schedule
+2024-11-11 19:10:57,949 INFO /home/madhu/.local/bin/bench start
+2024-11-11 19:10:58,210 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:10:58,212 INFO /home/madhu/.local/bin/bench schedule
+2024-11-11 19:10:58,212 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:10:58,213 INFO /home/madhu/.local/bin/bench watch
+2024-11-11 19:10:58,217 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 19:10:58,239 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-11 20:14:37,565 INFO /home/madhu/.local/bin/bench start
+2024-11-11 20:14:37,814 INFO /home/madhu/.local/bin/bench schedule
+2024-11-11 20:14:37,820 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 20:14:37,832 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-11 20:14:37,833 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 20:14:37,834 INFO /home/madhu/.local/bin/bench watch
+2024-11-11 20:14:37,843 INFO /home/madhu/.local/bin/bench worker
+2024-11-11 20:22:57,446 INFO /home/madhu/.local/bin/bench console
+2024-11-12 09:57:54,164 INFO /home/madhu/.local/bin/bench start
+2024-11-12 09:57:54,416 INFO /home/madhu/.local/bin/bench watch
+2024-11-12 09:57:54,426 INFO /home/madhu/.local/bin/bench worker
+2024-11-12 09:57:54,434 INFO /home/madhu/.local/bin/bench worker
+2024-11-12 09:57:54,446 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-12 09:57:54,455 INFO /home/madhu/.local/bin/bench schedule
+2024-11-12 09:57:54,466 INFO /home/madhu/.local/bin/bench worker
+2024-11-12 10:17:53,580 INFO /home/madhu/.local/bin/bench console
+2024-11-12 16:15:43,185 INFO /home/madhu/.local/bin/bench start
+2024-11-12 16:15:43,789 INFO /home/madhu/.local/bin/bench watch
+2024-11-12 16:15:43,840 INFO /home/madhu/.local/bin/bench worker
+2024-11-12 16:15:43,892 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-12 16:15:43,911 INFO /home/madhu/.local/bin/bench schedule
+2024-11-12 16:15:43,924 INFO /home/madhu/.local/bin/bench worker
+2024-11-12 16:15:43,929 INFO /home/madhu/.local/bin/bench worker
+2024-11-13 18:08:33,436 INFO /home/madhu/.local/bin/bench start
+2024-11-13 18:08:34,309 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-13 18:08:34,350 INFO /home/madhu/.local/bin/bench worker
+2024-11-13 18:08:34,416 INFO /home/madhu/.local/bin/bench worker
+2024-11-13 18:08:34,466 INFO /home/madhu/.local/bin/bench worker
+2024-11-13 18:08:34,470 INFO /home/madhu/.local/bin/bench watch
+2024-11-13 18:08:34,476 INFO /home/madhu/.local/bin/bench schedule
+2024-11-14 12:00:02,028 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-14 18:00:01,704 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-15 10:37:28,370 INFO /home/madhu/.local/bin/bench start
+2024-11-15 10:37:28,605 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-15 10:37:28,607 INFO /home/madhu/.local/bin/bench worker
+2024-11-15 10:37:28,628 INFO /home/madhu/.local/bin/bench schedule
+2024-11-15 10:37:28,633 INFO /home/madhu/.local/bin/bench worker
+2024-11-15 10:37:28,642 INFO /home/madhu/.local/bin/bench watch
+2024-11-15 10:37:28,648 INFO /home/madhu/.local/bin/bench worker
+2024-11-15 12:00:01,634 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-15 18:00:01,866 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-16 10:37:24,396 INFO /home/madhu/.local/bin/bench start
+2024-11-16 10:37:24,983 INFO /home/madhu/.local/bin/bench worker
+2024-11-16 10:37:25,079 INFO /home/madhu/.local/bin/bench watch
+2024-11-16 10:37:25,081 INFO /home/madhu/.local/bin/bench schedule
+2024-11-16 10:37:25,100 INFO /home/madhu/.local/bin/bench worker
+2024-11-16 10:37:25,102 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-16 10:37:25,116 INFO /home/madhu/.local/bin/bench worker
+2024-11-16 12:00:01,393 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-18 12:00:02,052 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-18 18:00:01,448 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-18 21:03:55,504 INFO /home/madhu/.local/bin/bench use task.local
+2024-11-18 21:04:01,658 INFO /home/madhu/.local/bin/bench start
+2024-11-18 21:04:01,920 INFO /home/madhu/.local/bin/bench schedule
+2024-11-18 21:04:01,920 INFO /home/madhu/.local/bin/bench worker
+2024-11-18 21:04:01,922 INFO /home/madhu/.local/bin/bench watch
+2024-11-18 21:04:01,927 INFO /home/madhu/.local/bin/bench worker
+2024-11-18 21:04:01,932 INFO /home/madhu/.local/bin/bench worker
+2024-11-18 21:04:01,937 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-18 21:05:49,929 INFO /home/madhu/.local/bin/bench use task.local
+2024-11-18 21:05:53,941 INFO /home/madhu/.local/bin/bench start
+2024-11-18 21:05:54,234 INFO /home/madhu/.local/bin/bench worker
+2024-11-18 21:05:54,250 INFO /home/madhu/.local/bin/bench worker
+2024-11-18 21:05:54,252 INFO /home/madhu/.local/bin/bench serve --port 8000
+2024-11-18 21:05:54,255 INFO /home/madhu/.local/bin/bench worker
+2024-11-18 21:05:54,263 INFO /home/madhu/.local/bin/bench watch
+2024-11-18 21:05:54,264 INFO /home/madhu/.local/bin/bench schedule
+2024-11-19 18:00:01,690 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-20 12:00:02,101 INFO /usr/local/bin/bench --verbose --site all backup

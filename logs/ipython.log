@@ -119,3 +119,94 @@ print(result)
 2024-10-05 11:35:15,873 INFO ipython frappe.db.get_list('Employee', pluck='last_name')
 2024-10-05 11:35:15,873 INFO ipython frappe.db.get_all('Employee')
 2024-10-05 11:35:15,873 INFO ipython === session end ===
+2024-11-07 13:10:39,445 INFO ipython === bench console session ===
+2024-11-07 13:10:39,446 INFO ipython from airport_shop_management.airport_shop_management.api import update_shop_counts
+2024-11-07 13:10:39,446 INFO ipython === session end ===
+2024-11-09 16:14:02,687 INFO ipython === bench console session ===
+2024-11-09 16:14:02,687 INFO ipython settings = frappe.get_single("Airport Shop Settings")
+2024-11-09 16:14:02,687 INFO ipython print("Default Rent Amount from Settings:", settings.default_rent_amount)
+2024-11-09 16:14:02,687 INFO ipython shop = frappe.get_doc({
+    "doctype": "Shop",
+    "shop_name": "Test Shop",
+    "area": 100, 
+    
+    })
+2024-11-09 16:14:02,687 INFO ipython shop.before_insert()
+2024-11-09 16:14:02,687 INFO ipython print("Rent Amount for Shop:", shop.rent_amount)
+2024-11-09 16:14:02,687 INFO ipython print("Rent Amount for Shop:", shop.rent_amount)
+2024-11-09 16:14:02,687 INFO ipython settings = frappe.get_single("Airport Shop Settings")
+2024-11-09 16:14:02,687 INFO ipython print("Settings Data:", settings.as_dict())
+2024-11-09 16:14:02,687 INFO ipython shop = frappe.get_doc({
+    "doctype": "Shop",
+    "shop_name": "Currency Tower",
+    "area": 800  })
+2024-11-09 16:14:02,687 INFO ipython shop.before_insert()
+2024-11-09 16:14:02,688 INFO ipython print("Rent Amount for Shop after before_insert:", shop.rent_amount)
+2024-11-09 16:14:02,688 INFO ipython frappe.db.commit()
+2024-11-09 16:14:02,688 INFO ipython print("Rent Amount for Shop after before_insert:", shop.rent_amount)
+2024-11-09 16:14:02,688 INFO ipython === session end ===
+2024-11-12 10:45:07,074 INFO ipython === bench console session ===
+2024-11-12 10:45:07,075 INFO ipython enable_rent_reminders = frappe.db.get_value("Airport Shop Setting", None, "enable_rent_reminders")
+2024-11-12 10:45:07,075 INFO ipython if enable_rent_reminders:
+    # Get all shops with unpaid rent
+    unpaid_rent_shops = frappe.get_all(
+        "Rent Payment",
+        filters={"rent_status": "Unpaid"},
+        fields=["shop", "tenant", "amount"]
+    )
+    
+2024-11-12 10:45:07,075 INFO ipython unpaid_rent_shops
+2024-11-12 10:45:07,075 INFO ipython unpaid_rent_shops = frappe.get_all(
+        "Rent Payment",
+        filters={"rent_status": "Unpaid"},
+        fields=["shop", "tenant", "amount"]
+    )
+2024-11-12 10:45:07,075 INFO ipython unpaid_rent_shops
+2024-11-12 10:45:07,075 INFO ipython for rent in unpaid_rent_shops:
+        tenant = frappe.get_doc("Tenant", rent.tenant)
+        shop = frappe.get_doc("Shop", rent.shop)
+        
+2024-11-12 10:45:07,075 INFO ipython message = f"""
+            Dear {tenant},
+            This is a reminder that your rent for shop {shop} is due.
+            Amount:
+            Please make the payment by the due date to avoid penalties.
+        """
+2024-11-12 10:45:07,075 INFO ipython tenant
+2024-11-12 10:45:07,075 INFO ipython shop
+2024-11-12 10:45:07,075 INFO ipython tenant
+2024-11-12 10:45:07,075 INFO ipython shop
+2024-11-12 10:45:07,075 INFO ipython  emails = frappe.db.get_list('Tenant', pluck='email')
+2024-11-12 10:45:07,075 INFO ipython frappe.sendmail(
+            recipients= emails,
+            sender='madhu.nishad0209@gmail.com',
+            subject="Rent Due Reminder",
+            content=message,
+            cc=['kumkumtiwari23@navgurukul.org'],  # CC if needed
+            now=True
+        )
+2024-11-12 10:45:07,076 INFO ipython enable_rent_reminders
+2024-11-12 10:45:07,076 INFO ipython enable_rent_reminders = frappe.db.get_value("Airport Shop Setting", None, "enable_rent_reminders")
+2024-11-12 10:45:07,076 INFO ipython enable_rent_reminders
+2024-11-12 10:45:07,076 INFO ipython tenant = frappe.db.get_list("Tenant", pluck='name')
+2024-11-12 10:45:07,076 INFO ipython tenant
+2024-11-12 10:45:07,076 INFO ipython tenant = frappe.db.get_list("Shop", pluck='shop_name')
+2024-11-12 10:45:07,076 INFO ipython shop = frappe.db.get_list("Shop", pluck='shop_name')
+2024-11-12 10:45:07,076 INFO ipython shop
+2024-11-12 10:45:07,076 INFO ipython  message = f"""
+            Dear {tenant},
+            This is a reminder that your rent for shop {shop} is due.
+            Amount:
+            Please make the payment by the due date to avoid penalties.
+        """
+2024-11-12 10:45:07,076 INFO ipython emails = frappe.db.get_list('Tenant', pluck='email')
+        
+2024-11-12 10:45:07,076 INFO ipython  frappe.sendmail(
+            recipients= emails,
+            sender='madhu.nishad0209@gmail.com',
+            subject="Rent Due Reminder",
+            content=message,
+            cc=['kumkumtiwari23@navgurukul.org'],  # CC if needed
+            now=True
+        )
+2024-11-12 10:45:07,076 INFO ipython === session end ===
